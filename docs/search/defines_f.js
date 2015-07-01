@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['range_5fmax',['RANGE_MAX',['../calamari_8c.html#a4f69b94680563056aed9fd60e5e28788',1,'RANGE_MAX():&#160;calamari.c'],['../calamari_8c.html#a4f69b94680563056aed9fd60e5e28788',1,'RANGE_MAX():&#160;calamari.c']]],
+  ['range_5fmin',['RANGE_MIN',['../calamari_8c.html#a3c983eeadd733105fb0fea8729a9f2db',1,'RANGE_MIN():&#160;calamari.c'],['../calamari_8c.html#a3c983eeadd733105fb0fea8729a9f2db',1,'RANGE_MIN():&#160;calamari.c']]],
+  ['reg_5fset',['REG_SET',['../sol-uart-linux_8c.html#a50335684509542efdc6c74ec45279cbd',1,'sol-uart-linux.c']]],
+  ['resolution',['RESOLUTION',['../sol-pwm-riot_8c.html#a95d55ebfa2f2f1bd14867ad6a6cc9bfb',1,'sol-pwm-riot.c']]],
+  ['respawn_5ftimeout_5fms',['RESPAWN_TIMEOUT_MS',['../linux-micro_2console_2console_8c.html#a8afb55ea84c95fbcd058ac3cef2e4d0c',1,'console.c']]],
+  ['return_5ferror',['RETURN_ERROR',['../oic_8c.html#a8014510353f325e785d2c68ff41bcebc',1,'oic.c']]],
+  ['rgb_5fled_5fblue',['RGB_LED_BLUE',['../calamari_8c.html#ac30fd8a503e0dd79a564b7324aebd2a3',1,'calamari.c']]],
+  ['rgb_5fled_5fctl',['RGB_LED_CTL',['../calamari_8c.html#a049274f87cc2e836a985f081d2506a4e',1,'calamari.c']]],
+  ['rgb_5fled_5fgreen',['RGB_LED_GREEN',['../calamari_8c.html#a41dcc9b3dd9d0aca8793628a74fc5799',1,'calamari.c']]],
+  ['rgb_5fled_5fred',['RGB_LED_RED',['../calamari_8c.html#afb4c04b6e1fc2c77218ad29a8d133eec',1,'calamari.c']]],
+  ['rgb_5fsend',['RGB_SEND',['../converter_8c.html#a53daf1871e607784970e1938fe636e87',1,'converter.c']]],
+  ['rgb_5fvalue_5fmax',['RGB_VALUE_MAX',['../led_8c.html#a6b56a59f59e34bcad8b6b24884a1b175',1,'led.c']]],
+  ['rotary_5faio_5freader_5fnode_5fidx',['ROTARY_AIO_READER_NODE_IDX',['../grove_8c.html#a7d8bed8e72a83a71a62e4560ab6a1c7d',1,'grove.c']]],
+  ['rotary_5fconverter_5fnode_5fidx',['ROTARY_CONVERTER_NODE_IDX',['../grove_8c.html#a15b7f196bcf5f083c41171fd282315a1',1,'grove.c']]],
+  ['row_5fmax',['ROW_MAX',['../grove_8c.html#a06fc4a42cf3c87aafa67518b95e9d588',1,'grove.c']]],
+  ['row_5fmin',['ROW_MIN',['../grove_8c.html#acfddecdd5deb10511af28411f2ea920b',1,'grove.c']]]
+];
