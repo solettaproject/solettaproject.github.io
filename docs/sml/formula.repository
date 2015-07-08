@@ -1,0 +1,11 @@
+\form#0:$ f(\sum_{i=1}^{n} W_i * I_i) = Out (1)$
+\form#1:$i$
+\form#2:$n$
+\form#3:$I_i$
+\form#4:$W_i$
+\form#5:$Out$
+\form#6:$f(x)$
+\form#7:$\frac{1}{1 + e^{-x}}$
+\form#8:\begin{eqnarray*} OutputN3 &=& \frac{1}{1 + e^{-x}}\\ &=& \frac{1}{1 + e^{-((1 * 3) + (0 * 1.2))}}\\ &=& 0.95 \end{eqnarray*}
+\form#9:\begin{eqnarray*} OutputN4 &=& \frac{1}{1 + e^{-x}}\\ &=& \frac{1}{1 + e^{-((1 * 3.4) + (0 * 2.5))}}\\ &=& 0.96 \end{eqnarray*}
+\form#10:\begin{eqnarray*} Light state &=& \frac{1}{1 + e^{-x}}\\ &=& \frac{1}{1 + e^{-((0.95 * 4) + (0.96 * 5))}}\\ &=& 0.99 \end{eqnarray*}

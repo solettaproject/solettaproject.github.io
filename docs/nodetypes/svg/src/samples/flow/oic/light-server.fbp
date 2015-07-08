@@ -1,0 +1,13 @@
+#!/usr/bin/env sol-fbp-runner
+
+# This will print in console when OIC light's state is changed by a client.
+# This node type is resolved using the light-server.json,
+# please adjust to your network configuration:
+#
+#    $ export SOL_FLOW_MODULE_RESOLVER_CONFFILE=light-server-mynet.json
+#    $ ./light-server.fbp
+#
+# or save it as sol-flow.json
+
+light(Light)
+light OUT_STATE -> IN LightState(console)

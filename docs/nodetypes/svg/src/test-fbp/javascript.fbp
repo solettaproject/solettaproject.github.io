@@ -1,0 +1,28 @@
+
+## TEST-SKIP-COMPILE It seems generator doesn't know about metatype 'js'
+
+DECLARE=MyScript:js:javascript.js
+
+_(constant/boolean:value=true) OUT -> IN_BOOLEAN s(MyScript)
+_(constant/byte:value=66) OUT -> IN_BYTE s
+_(constant/float:value=0.42) OUT -> IN_FLOAT s
+_(constant/int:value=42) OUT -> IN_INT s
+_(constant/rgb:value=0|125|255) OUT -> IN_RGB s
+_(constant/string:value="my string") OUT -> IN_STRING s
+
+s OUT_BOOLEAN -> IN c(console)
+s OUT_BYTE -> IN c
+s OUT_FLOAT -> IN c
+s OUT_INT -> IN c
+s OUT_RGB -> IN c
+s OUT_STRING -> IN c
+
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT
+# c true (boolean)
+# c #42 (byte)
+# c 0.420000 (float range)
+# c 42 (integer range)
+# c (0, 125, 255) (rgb)
+# c my string (string)
