@@ -1,21 +1,6 @@
 var searchData=
 [
   ['_5f_5fpad0_5f_5f',['__pad0__',['../structsol__worker__thread__spec.html#af7e825992aab673ad81372af4cf2bb9b',1,'sol_worker_thread_spec::__pad0__()'],['../structsol__network__link.html#a54669e520b10c3b1fb609c269a355867',1,'sol_network_link::__pad0__()'],['../structsol__oic__client.html#a7c20e63c8d42935292503e5638112bb8',1,'sol_oic_client::__pad0__()'],['../structsol__oic__resource.html#ad10523b693fcc16fe94a41162aff4a39',1,'sol_oic_resource::__pad0__()'],['../structsol__oic__server__information.html#adf2c838619acd86dedc96a3a3a61f297',1,'sol_oic_server_information::__pad0__()'],['../structsol__oic__resource__type.html#ae3c05bc2884cb9a4f637e603a0f58d15',1,'sol_oic_resource_type::__pad0__()']]],
-  ['_5fabort_5flevel',['_abort_level',['../sol-log-impl_8h.html#a3ed1dd91387a419720e11dee896cb0cb',1,'_abort_level():&#160;sol-log.c'],['../sol-log_8c.html#a3ed1dd91387a419720e11dee896cb0cb',1,'_abort_level():&#160;sol-log.c']]],
-  ['_5fconverter_5flog_5fdomain',['_converter_log_domain',['../string-format_8h.html#a153a344c21805ce151aa4b0343a37f8f',1,'string-format.h']]],
-  ['_5fglobal_5fdomain',['_global_domain',['../sol-log-impl_8h.html#af2a705abeecfc0391e06ef74a4a81be4',1,'_global_domain():&#160;sol-log.c'],['../sol-log_8c.html#af2a705abeecfc0391e06ef74a4a81be4',1,'_global_domain():&#160;sol-log.c']]],
-  ['_5fgtk_5flog_5fdomain',['_gtk_log_domain',['../gtk_2common_8h.html#a6bc6b5da7dac5b320d0339b50e4a8772',1,'common.h']]],
-  ['_5fprint_5ffunction',['_print_function',['../sol-log-impl_8h.html#af9bdce4f096665702ca1f17793ac3906',1,'_print_function():&#160;sol-log.c'],['../sol-log_8c.html#af9bdce4f096665702ca1f17793ac3906',1,'_print_function():&#160;sol-log.c']]],
-  ['_5fprint_5ffunction_5fdata',['_print_function_data',['../sol-log-impl_8h.html#ad22d52952d7009de7e21a37df8116a7b',1,'_print_function_data():&#160;sol-log.c'],['../sol-log_8c.html#ad22d52952d7009de7e21a37df8116a7b',1,'_print_function_data():&#160;sol-log.c']]],
-  ['_5fprocess_5flog_5fdomain',['_process_log_domain',['../process_2common_8h.html#a047965a56bb06320bbee96204a2225bf',1,'common.h']]],
-  ['_5fshow_5fcolors',['_show_colors',['../sol-log-impl_8h.html#a8bf2003f6cd65797fe1b8fdce9baf64c',1,'_show_colors():&#160;sol-log.c'],['../sol-log_8c.html#a8bf2003f6cd65797fe1b8fdce9baf64c',1,'_show_colors():&#160;sol-log.c']]],
-  ['_5fshow_5ffile',['_show_file',['../sol-log-impl_8h.html#a2b2107e4bab66fbdf737fb1f5cc06498',1,'_show_file():&#160;sol-log.c'],['../sol-log_8c.html#a2b2107e4bab66fbdf737fb1f5cc06498',1,'_show_file():&#160;sol-log.c']]],
-  ['_5fshow_5ffunction',['_show_function',['../sol-log-impl_8h.html#a878af57a88141116ebd74bf8aafad35a',1,'_show_function():&#160;sol-log.c'],['../sol-log_8c.html#a878af57a88141116ebd74bf8aafad35a',1,'_show_function():&#160;sol-log.c']]],
-  ['_5fshow_5fline',['_show_line',['../sol-log-impl_8h.html#ab50758111f4605ebc4bd9684c7d8a007',1,'_show_line():&#160;sol-log.c'],['../sol-log_8c.html#ab50758111f4605ebc4bd9684c7d8a007',1,'_show_line():&#160;sol-log.c']]],
-  ['_5fsol_5fflow_5flog_5fdomain',['_sol_flow_log_domain',['../sol-flow-internal_8h.html#ad177bffdc074d5e9812bdbcd140548cc',1,'sol-flow-internal.h']]],
-  ['_5fsol_5fmainloop_5flog_5fdomain',['_sol_mainloop_log_domain',['../sol-mainloop-impl_8h.html#a1f1bc499a9527dc5dd2cc21c25e42edc',1,'sol-mainloop-impl.h']]],
-  ['_5fsol_5fmessage_5fdigest_5fcommon_5flog_5fdomain',['_sol_message_digest_common_log_domain',['../sol-message-digest-common_8h.html#af5fd886da5934078bfe63d23aea2693b',1,'sol-message-digest-common.h']]],
-  ['_5fsol_5fplatform_5flog_5fdomain',['_sol_platform_log_domain',['../sol-platform-impl_8h.html#aaa24df01282da1a70a61dd3063410fe5',1,'sol-platform-impl.h']]],
-  ['_5fsol_5fworker_5fthread_5flog_5fdomain',['_sol_worker_thread_log_domain',['../sol-worker-thread-impl_8h.html#ab6226adee074aabef9c512a8657058c2',1,'sol-worker-thread-impl.h']]],
-  ['_5ftest_5flog_5fdomain',['_test_log_domain',['../test-module_8h.html#a084fa1c423c645ac346ec60c128fdf8f',1,'test-module.h']]]
+  ['_5fsol_5fglib_5fintegration_5fgsource_5ffuncs',['_sol_glib_integration_gsource_funcs',['../sol-glib-integration_8h.html#af98ea689176b6a95f9bd96ae675bdf53',1,'sol-glib-integration.h']]],
+  ['_5fsol_5fglib_5fintegration_5fsource_5ftype',['_sol_glib_integration_source_type',['../sol-glib-integration_8h.html#a2a023005e3b87cecaca12084bcbd2cb9',1,'sol-glib-integration.h']]]
 ];

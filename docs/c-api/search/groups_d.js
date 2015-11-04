@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parsers',['Parsers',['../group__Parsers.html',1,'']]],
-  ['platform',['Platform',['../group__Platform.html',1,'']]],
-  ['pwm',['PWM',['../group__PWM.html',1,'']]]
+  ['open_20interconnect_20consortium',['Open Interconnect Consortium',['../group__OIC.html',1,'']]],
+  ['oic_20client',['OIC Client',['../group__oic__client.html',1,'']]],
+  ['oic_20server',['OIC Server',['../group__oic__server.html',1,'']]]
 ];

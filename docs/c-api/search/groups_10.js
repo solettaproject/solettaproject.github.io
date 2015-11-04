@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['uart',['UART',['../group__UART.html',1,'']]]
+  ['type_20checking',['Type Checking',['../group__Type__Checking.html',1,'']]],
+  ['types',['Types',['../group__Types.html',1,'']]]
 ];

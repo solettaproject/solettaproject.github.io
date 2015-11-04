@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['keep_5fstate',['keep_state',['../structswitcher__data.html#a493f996e80d49b9ea49bd7d9c241633c',1,'switcher_data']]],
-  ['keepalive',['keepalive',['../structsol__mqtt__config.html#a38446dcfae1ef1b9940d2c5bd18f69d3',1,'sol_mqtt_config::keepalive()'],['../structsol__mqtt.html#a19cbcce95d85362655c84bfd3447a41a',1,'sol_mqtt::keepalive()']]],
-  ['key',['key',['../structsol__key__value.html#aeb12efef930611bfa469c72d26b89469',1,'sol_key_value::key()'],['../structsol__http__param__value.html#aee9aa08166881a545675141084362b3e',1,'sol_http_param_value::key()'],['../structsol__oic__repr__field.html#ae7635ebb3d78fc3bb99e84c5eb33d8e7',1,'sol_oic_repr_field::key()'],['../group__Message__Digest.html#gad8bb6b1ff7e422523a5d0e6889cd1a49',1,'sol_message_digest_config::key()'],['../structsol__str__table.html#a955094e5ad23b4445da1b6fb4c58d412',1,'sol_str_table::key()'],['../structsol__str__table__ptr.html#a2f55308cfea5e1f0d4cc85c730a93616',1,'sol_str_table_ptr::key()'],['../structhttp__data.html#a8709fc565cfe7719113a02f42cb3824f',1,'http_data::key()'],['../structhttp__response__get__data.html#ae69a2573ad13021dc3bc223f8cc54b8b',1,'http_response_get_data::key()'],['../structsol__json__node__data.html#ada93a5da44fc1387edffc261cd1ef4bf',1,'sol_json_node_data::key()'],['../structjson__key__element.html#aa1f7a8549c823afd6b1910297f1a2dae',1,'json_key_element::key()'],['../structsol__fbp__meta.html#a639153e9ba9e2b2c944e90441eca2975',1,'sol_fbp_meta::key()']]],
-  ['key_5fvalue',['key_value',['../structsol__http__param__value.html#af08619b97ab51ec68f74a9cee37ca029',1,'sol_http_param_value']]]
+  ['lat',['lat',['../structsol__location.html#a00fff3314f90e0667cb4c8293a97b0ab',1,'sol_location']]],
+  ['led_5fstate',['led_state',['../oic-server_8c.html#a172311489890fda0fd6c0562523f63c0',1,'oic-server.c']]],
+  ['len',['len',['../structsol__str__slice.html#a9b9f38d8d946af896daf76fab04473b7',1,'sol_str_slice::len()'],['../structsol__str__table.html#ab727ecffc9bff95e6454383739528661',1,'sol_str_table::len()'],['../structsol__str__table__ptr.html#a958ba081c05a4333fad17a1d83f4eaba',1,'sol_str_table_ptr::len()'],['../structsol__vector.html#ac27a1163cfe3c9ba8d4229a04ebbada5',1,'sol_vector::len()']]],
+  ['level',['level',['../structsol__log__domain.html#aa16078d372ad1360d56571eb20415921',1,'sol_log_domain']]],
+  ['light',['light',['../simple-server_8c.html#a1f643d8a1dc4356bc60b3f554df4bf40',1,'simple-server.c']]],
+  ['log_5flevel',['log_level',['../md5sum_8c.html#ad2da3ac425bc17356fa089cd52c099bc',1,'md5sum.c']]],
+  ['lon',['lon',['../structsol__location.html#ae47329ebc9bab92ed34572d3a8045612',1,'sol_location']]]
 ];

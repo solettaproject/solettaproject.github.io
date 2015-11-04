@@ -1,20 +1,15 @@
 var searchData=
 [
-  ['udev',['udev',['../structudev__data.html#a49b450bc9e8872591cf9ee212a3ff36a',1,'udev_data']]],
-  ['un_5fsocket',['un_socket',['../structunix__socket__data.html#a340e32b39b3509210c2495628ef90b02',1,'unix_socket_data']]],
-  ['unsubscribe',['unsubscribe',['../structsol__mqtt__handlers.html#a50911e9cd471e10a492c9ec61f7c093d',1,'sol_mqtt_handlers']]],
-  ['unsubscribe_5ftimeout',['unsubscribe_timeout',['../structsol__mqtt.html#a722c660ced3333a3b1907a18eb6d7ef6',1,'sol_mqtt']]],
-  ['upcase',['upcase',['../structstring__uuid__data.html#a74b6a233c92e70e316d8716807d715d4',1,'string_uuid_data']]],
-  ['update_5fschedule_5ftimeout',['update_schedule_timeout',['../structclient__resource.html#acf6eb497948f796e68cae576e12de0f4',1,'client_resource::update_schedule_timeout()'],['../structserver__resource.html#a6ffe452d45e098ea468221739e2726d2',1,'server_resource::update_schedule_timeout()']]],
-  ['uppercase',['uppercase',['../structstring__b16__data.html#a6e6ff3b8d0bd90d3ffee70f48e4a13ed',1,'string_b16_data::uppercase()'],['../structstring__b16decode__data.html#ab4952ca8622dfa9a6355730a25b988f4',1,'string_b16decode_data::uppercase()']]],
-  ['url',['url',['../structsol__http__response.html#ac45a43280cfd71e4dd6c40575bd13d46',1,'sol_http_response::url()'],['../structsol__http__request.html#aa4ab3c3c752f0e42c16d073f1f9f9e78',1,'sol_http_request::url()'],['../structhttp__response.html#a5fff0d3996e16b30dbba98116d67ff94',1,'http_response::url()'],['../structhttp__data.html#a80a144a07b522bd7d090c3000f4cd963',1,'http_data::url()']]],
-  ['use_5fcustom_5foffset',['use_custom_offset',['../structsol__iio__channel__config.html#a0936e9071b3002faf321ca6d14142eda',1,'sol_iio_channel_config']]],
-  ['use_5fdevice_5fdefault_5foffset',['use_device_default_offset',['../structgyroscope__data.html#a71a9ae1581de2c7c248c1c1e8028d1f4',1,'gyroscope_data']]],
-  ['use_5fdevice_5fdefault_5fscale',['use_device_default_scale',['../structgyroscope__data.html#a1615a2de07165708a967f04fc897c186',1,'gyroscope_data']]],
-  ['use_5finput_5frange',['use_input_range',['../structdrange__map__data.html#a4c5de322fd0da65e76664e9f02b169b1',1,'drange_map_data::use_input_range()'],['../structdrange__constrain__data.html#a1c4cb5ca165a50d1881070e219a37b42',1,'drange_constrain_data::use_input_range()'],['../structirange__constrain__data.html#a78558e810a6e5506bd8f1b50858a1af3',1,'irange_constrain_data::use_input_range()'],['../structirange__map__data.html#aae20d4fe7750a2161368687dafa8a456',1,'irange_map_data::use_input_range()']]],
-  ['use_5frad',['use_rad',['../structgyroscope__l3g4200d__data.html#a80d0a9f8b1fb603d6045051f60b92181',1,'gyroscope_l3g4200d_data']]],
-  ['used',['used',['../structsol__coap__packet.html#a8c6a9e3cafa36b89e13430b63186719b',1,'sol_coap_packet::used()'],['../structoption__context.html#a67399da85623c9523e338708d28c7ffb',1,'option_context::used()'],['../structsol__buffer.html#a50844b0cbc4ae956fd4335537756bfa9',1,'sol_buffer::used()']]],
-  ['user',['user',['../structsol__http__param__value.html#ad1a0fb7369885b7a148db388524e19bf',1,'sol_http_param_value::user()'],['../structhttp__request__data.html#a438da07fc1c3f1144fbecaf4d92cb31c',1,'http_request_data::user()']]],
-  ['user_5fdata',['user_data',['../structsol__event__handler__contiki.html#a8028c9a04fd0a20c61d87ec11aeff043',1,'sol_event_handler_contiki::user_data()'],['../structhttp__handler.html#aa5c7f9a303489b7d3642a616dd08020f',1,'http_handler::user_data()'],['../structsol__gpio__config.html#aee50df73dc45a8586a090d5edda15fbe',1,'sol_gpio_config::user_data()'],['../structsol__fbp__node.html#afb6d99eebb1062c841f3748b0603f95f',1,'sol_fbp_node::user_data()']]],
-  ['username',['username',['../structsol__mqtt__config.html#ad7acb3229037bac3b96e472236d66761',1,'sol_mqtt_config::username()'],['../structhttp__get__data.html#ae6372d2ba9a3c9cf622a5de914980d26',1,'http_get_data::username()']]]
+  ['v_5fboolean',['v_boolean',['../structsol__oic__repr__field.html#acbd5c562158662956caa57adc2e687be',1,'sol_oic_repr_field']]],
+  ['v_5fdouble',['v_double',['../structsol__oic__repr__field.html#a36daf048002d25b8c55499f334d06d0f',1,'sol_oic_repr_field']]],
+  ['v_5ffloat',['v_float',['../structsol__oic__repr__field.html#ad253960f86bd88e96ea028f3f91da87d',1,'sol_oic_repr_field']]],
+  ['v_5fint',['v_int',['../structsol__oic__repr__field.html#aab27efdb341e02acaf458a371669d0ef',1,'sol_oic_repr_field']]],
+  ['v_5fsimple',['v_simple',['../structsol__oic__repr__field.html#ad99e542c0e453b79ea26fbb00250924d',1,'sol_oic_repr_field']]],
+  ['v_5fslice',['v_slice',['../structsol__oic__repr__field.html#a4e61bd3541878c770d6132ea0d9e5cb2',1,'sol_oic_repr_field']]],
+  ['v_5fuint',['v_uint',['../structsol__oic__repr__field.html#a5dee03011ab6538fd376c58e1221a844',1,'sol_oic_repr_field']]],
+  ['v_5fvoidptr',['v_voidptr',['../structsol__oic__repr__field.html#a30dfd15ff0e16afe54b857e5d48fbcd2',1,'sol_oic_repr_field']]],
+  ['val',['val',['../structreader__data.html#a4c2aeda8af089ef9e2cb7bd890364ddc',1,'reader_data::val()'],['../structsol__drange.html#aa37a35222a4556fd5db0bf9744d162b3',1,'sol_drange::val()'],['../structsol__irange.html#a689ae9075c334bf03f451c146a94fd50',1,'sol_irange::val()'],['../structsol__str__table.html#afc51b705f3313cad585369fcebc4b764',1,'sol_str_table::val()'],['../structsol__str__table__ptr.html#afe90daae526a9490730e9774b4729100',1,'sol_str_table_ptr::val()']]],
+  ['value',['value',['../structsol__key__value.html#af6f3be5f7972da28fb191e905994f323',1,'sol_key_value::value()'],['../structsol__http__param__value.html#a79668b4786adc82eeccd41ac452bda48',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a846ee4aa90baff13e4609c62f1929425',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a50487407271eb325bdeb6cfd2bb32e38',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a265aab571391769734c5310b08eb41ae',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#ad840116c980f7046d55c5692ff645171',1,'sol_http_param_value::value()'],['../structsol__gpio__config.html#a630eef44e0d91063bf3f673c6a59a65a',1,'sol_gpio_config::value()'],['../server_8c.html#acda54b23a3b92ae2efa63634288c0496',1,'value():&#160;server.c']]],
+  ['verbose',['verbose',['../client_8c.html#ab3f078684998b83967d507d0f453f454',1,'client.c']]],
+  ['version',['version',['../structsol__update__info.html#a9eaeffed827326d05e0d03d6c3c3da63',1,'sol_update_info::version()'],['../structsol__memmap__map.html#aff43ad9afa3e4099b5234b8d0458f12a',1,'sol_memmap_map::version()']]]
 ];
