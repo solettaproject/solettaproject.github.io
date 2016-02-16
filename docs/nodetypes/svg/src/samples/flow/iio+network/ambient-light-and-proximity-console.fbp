@@ -1,0 +1,11 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# Print IIO ambient light luminance and proximity reading in console
+
+DECLARE=ambient-light-and-proximity:fbp:ambient-light-and-proximity.fbp
+amb_prox(ambient-light-and-proximity:interval=1000)
+
+amb_prox LUX -> IN _(console:prefix="Lux: ")
+amb_prox PROXIMITY -> IN _(console:prefix="Proximity: ")
+

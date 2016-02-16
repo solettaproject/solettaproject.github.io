@@ -1,0 +1,24 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This example is just a variation of
+# calamari-button-accumulator-persistence.fbp.
+#
+# It showcases persistence usage. By clicking on Buttons 1 & 2,
+# one can increase/decrease a counter, that is displayed on 7 seg display.
+# Each change is also persisted to Calamari EFIVARS, so this sample will, on
+# a second run, remembers counter last value.
+
+btn1(Button1)
+btn2(Button2)
+accumulator(int/accumulator:send_initial_packet=false,setup_value=min:0|max:15|step:1)
+seg(SevenSegments)
+persistence(persistence/int:storage="efivars",name="accumulated",default_value=0)
+
+persistence OUT -> SET accumulator
+persistence OUT -> VALUE seg
+
+btn1 OUT -> IN _(boolean/filter) TRUE -> INC accumulator
+btn2 OUT -> IN _(boolean/filter) TRUE -> DEC accumulator
+
+accumulator OUT -> IN persistence

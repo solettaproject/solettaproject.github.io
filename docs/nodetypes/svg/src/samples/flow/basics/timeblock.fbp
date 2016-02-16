@@ -1,0 +1,10 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This flow exemplify how use timeblocks.
+# A day is split on blocks of 30 minutes, specified using option 'interval'
+# on timeblock node.
+
+timeblock(wallclock/timeblock:send_initial_packet=true,interval=30)
+console(console:prefix="Curret timeblock: ",suffix=" of 48")
+timeblock OUT -> IN console

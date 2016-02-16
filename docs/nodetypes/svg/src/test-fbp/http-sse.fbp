@@ -1,0 +1,10 @@
+
+seq(test/int-validator:sequence="10 11 12 13 14 15 16 17 18 19 20")
+
+timer(timer:interval=10) OUT -> INC accumulator(int/accumulator:initial_value=10) OUT -> IN _(http-server/int:port=8080)
+
+_(constant/int:value=20) OUT -> IN[0] stop(int/equal) OUT -> IN _(boolean/not) OUT -> ENABLED timer
+
+accumulator OUT -> IN[1] stop
+
+_(constant/empty) OUT -> GET _(http-client/int:url="http://localhost:8080/int") OUT -> IN seq OUT -> RESULT _(test/result:timeout=6000)

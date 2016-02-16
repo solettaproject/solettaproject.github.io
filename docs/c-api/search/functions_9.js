@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../oic-client_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;oic-client.c'],['../oic-server_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;oic-server.c'],['../simple-client_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;simple-client.c'],['../simple-server_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;simple-server.c'],['../platform-simple_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;platform-simple.c'],['../uart_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;uart.c'],['../mqtt-publish_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;mqtt-publish.c'],['../mqtt-subscribe_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;mqtt-subscribe.c']]],
-  ['mytype_5ffunc',['mytype_func',['../simplectype_8c.html#a8dcfbf8539cb25d4c3fc454422d4844c',1,'simplectype.c']]]
+  ['iio_5fgyroscope_5freader_5fcb',['iio_gyroscope_reader_cb',['../iio-gyroscope-console-and-mqtt-publish_8c.html#a4f29673b4a00b8c6740301f425f4eb81',1,'iio-gyroscope-console-and-mqtt-publish.c']]],
+  ['isodd',['isodd',['../simple-c-type_8c.html#a1f149a3de00295bfc7e35ecbf2697983',1,'simple-c-type.c']]]
 ];

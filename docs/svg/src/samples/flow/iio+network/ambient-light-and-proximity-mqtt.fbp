@@ -1,0 +1,15 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# Publish IIO ambient light luminance and proximity reading through MQTT
+
+DECLARE=ambient-light-and-proximity:fbp:ambient-light-and-proximity.fbp
+amb_prox(ambient-light-and-proximity:interval=1000)
+
+# publish
+pub(mqtt/client:host="127.0.0.1",topic="soletta/mqtt/sensor_data")
+
+amb_prox SENSOR_STRING -> IN convert(converter/string-to-blob) OUT -> DATA pub
+
+convert OUT -> PUBLISH pub
+

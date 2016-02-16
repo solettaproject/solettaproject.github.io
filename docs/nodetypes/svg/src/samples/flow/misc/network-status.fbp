@@ -1,0 +1,14 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# Network sample that monitors specified links. It checks if the link is
+# up/down and prints to console.
+#
+# Usage: ./network-status.fbp INTERFACE
+
+Interface(app/argv:index=1)
+Network(network/boolean)
+Status(console)
+
+Interface OUT -> ADDRESS Network
+Network OUT -> IN Status

@@ -39,20 +39,49 @@
     },
 
     "data_type": {
-      "enum": [ "boolean", "int", "byte", "string", "float", "rgb", "direction-vector", "error", "location" ]
+      "enum": [
+        "blob",
+        "boolean",
+        "byte",
+        "direction-vector",
+        "error",
+        "float",
+        "http-response",
+        "int",
+        "json-object",
+        "json-array",
+        "location",
+        "rgb",
+        "string",
+        "timestamp"
+      ]
     },
 
     "option_data_type": {
-      "enum": [ "boolean", "int", "byte", "string", "float", "rgb", "direction-vector"]
+      "enum": [
+        "boolean",
+        "byte",
+        "direction-vector",
+        "drange-spec",
+        "float",
+        "int",
+        "irange-spec",
+        "rgb",
+        "string"
+      ]
     },
 
     "port_data_type": {
       "anyOf": [
         { "$ref": "#/definitions/data_type" },
-        { "enum": [ "any", "blob" ] },
+        { "enum": [ "any" ] },
         {
           "type": "string",
           "pattern": "^custom:[a-zA-Z_][a-zA-Z0-9_]*$"
+        },
+        {
+          "type": "string",
+          "pattern": "^composed:([\\-a-zA-Z]*?)((,[\\-a-zA-Z]+)+)$"
         }
       ]
     },
@@ -170,16 +199,14 @@
       }
     },
 
-    "options_members_int": {
+    "options_members_irange_spec": {
       "properties": {
-        "data_type": { "enum": [ "int" ] },
+        "data_type": { "enum": [ "irange-spec" ] },
         "default": {
           "oneOf": [
-            { "type": "integer" },
             {
               "type": "object",
               "properties": {
-                "val": { "$ref": "#/definitions/int_or_limit" },
                 "min": { "$ref": "#/definitions/int_or_limit" },
                 "max": { "$ref": "#/definitions/int_or_limit" },
                 "step": { "$ref": "#/definitions/int_or_limit" }
@@ -191,16 +218,21 @@
       }
     },
 
-    "options_members_float": {
+    "options_members_int": {
       "properties": {
-        "data_type": { "enum": [ "float" ] },
+        "data_type": { "enum": [ "int" ] },
+        "default": { "$ref": "#/definitions/int_or_limit" }
+      }
+    },
+
+    "options_members_drange_spec": {
+      "properties": {
+        "data_type": { "enum": [ "drange-spec" ] },
         "default": {
           "oneOf": [
-            { "type": "number" },
             {
               "type": "object",
               "properties": {
-                "val": { "$ref": "#/definitions/float_or_limit" },
                 "min": { "$ref": "#/definitions/float_or_limit" },
                 "max": { "$ref": "#/definitions/float_or_limit" },
                 "step": { "$ref": "#/definitions/float_or_limit" }
@@ -209,6 +241,13 @@
             }
           ]
         }
+      }
+    },
+
+    "options_members_float": {
+      "properties": {
+        "data_type": { "enum": [ "float" ] },
+        "default": { "$ref": "#/definitions/float_or_limit" }
       }
     },
 
@@ -255,25 +294,6 @@
       }
     },
 
-    "options_members_location": {
-      "properties": {
-        "data_type": { "enum": [ "location" ] },
-        "default": {
-          "oneOf": [
-            {
-              "type": "object",
-              "properties": {
-                "lat": { "$ref": "#/definitions/float_or_limit" },
-                "lon": { "$ref": "#/definitions/float_or_limit" },
-                "alt": { "$ref": "#/definitions/float_or_limit" }
-              },
-              "additionalProperties": false
-            }
-          ]
-        }
-      }
-    },
-
     "options_members_string": {
       "properties": {
         "data_type": { "enum": [ "string" ] },
@@ -308,14 +328,15 @@
         {
           "oneOf": [
             { "$ref": "#/definitions/options_members_boolean" },
-            { "$ref": "#/definitions/options_members_int" },
-            { "$ref": "#/definitions/options_members_float" },
-            { "$ref": "#/definitions/options_members_string" },
             { "$ref": "#/definitions/options_members_byte" },
-            { "$ref": "#/definitions/options_members_rgb" },
+            { "$ref": "#/definitions/options_members_custom" },
             { "$ref": "#/definitions/options_members_direction_vector" },
-            { "$ref": "#/definitions/options_members_location" },
-            { "$ref": "#/definitions/options_members_custom" }
+            { "$ref": "#/definitions/options_members_drange_spec" },
+            { "$ref": "#/definitions/options_members_float" },
+            { "$ref": "#/definitions/options_members_int" },
+            { "$ref": "#/definitions/options_members_irange_spec" },
+            { "$ref": "#/definitions/options_members_rgb" },
+            { "$ref": "#/definitions/options_members_string" }
           ]
         }
       ]
@@ -335,6 +356,13 @@
       },
       "additionalProperties": false,
       "required": [ "version", "members" ]
+    },
+
+    "aliases": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string" }
     },
 
     "node": {
@@ -370,7 +398,8 @@
           "uniqueItems": true,
           "items": { "$ref": "#/definitions/out_port" }
         },
-        "options": { "$ref": "#/definitions/options" }
+        "options": { "$ref": "#/definitions/options" },
+        "aliases": { "$ref": "#/definitions/aliases"}
       },
       "required": [ "name", "category", "description" ],
       "additionalProperties": false
@@ -396,7 +425,8 @@
           "minItems": 1,
           "uniqueItems": true,
           "items": { "$ref": "#/definitions/node" }
-        }
+        },
+        "aliases": { "$ref": "#/definitions/aliases"}
       },
       "required": [ "$schema", "name", "meta", "types" ],
       "additionalProperties": false

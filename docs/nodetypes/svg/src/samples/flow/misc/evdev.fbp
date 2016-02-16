@@ -1,0 +1,11 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This example prints the state of key "ESC" on the console.
+# Path and codes may vary depending on platform.
+# You may use evtest to check for these values.
+# If you're running this sample in your development machine you
+# may need to run it as root.
+
+event(evdev/boolean:path="/dev/input/event8",ev_code=1)
+event OUT -> IN state(console)

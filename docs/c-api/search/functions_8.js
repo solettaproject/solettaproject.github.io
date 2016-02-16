@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['light_5fmethod_5fget',['light_method_get',['../simple-server_8c.html#a3ddb32b6e9918212e8f3b7a7d4fcb8da',1,'simple-server.c']]],
-  ['light_5fmethod_5fput',['light_method_put',['../simple-server_8c.html#a401a3c25cca2cfe4cac89a7da8782979',1,'simple-server.c']]],
-  ['light_5fresource_5fto_5frep',['light_resource_to_rep',['../simple-server_8c.html#a52970520b6de41aa9c49bd0880f922b1',1,'simple-server.c']]],
-  ['logic_5fprocess',['logic_process',['../custom-node-types_8c.html#a72a91272e64c30f91710ae7641861023',1,'custom-node-types.c']]]
+  ['hash_5ffile',['hash_file',['../sha256sum_8c.html#a889b97a3ee7abee85e899fca893da399',1,'sha256sum.c']]],
+  ['hash_5fstdin',['hash_stdin',['../sha256sum_8c.html#ad0d382756194dfcc11fd25b7d4b2784c',1,'sha256sum.c']]],
+  ['hrs_5fmeasurement_5fread',['hrs_measurement_read',['../heartbeat_8c.html#a868d1343e481a2f4a7c0514c2d4987d4',1,'heartbeat.c']]]
 ];

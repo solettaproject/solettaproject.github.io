@@ -1,0 +1,25 @@
+
+Time(timestamp/make-time)
+
+Year(constant/int:value=2015)
+Month(constant/int:value=8)
+Day(constant/int:value=26)
+Hour(constant/int:value=15)
+Minute(constant/int:value=20)
+Second(constant/int:value=59)
+NanoSecond(constant/int:value=13)
+
+Year OUT -> YEAR Time
+Month OUT -> MONTH Time
+Day OUT -> MONTH_DAY Time
+Hour OUT -> HOUR Time
+Minute OUT -> MINUTE Time
+Second OUT -> SECOND Time
+NanoSecond OUT -> NANO_SECOND Time
+
+Time OUT -> IN c(console)
+
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT-REGEX
+# c 2015-08-26T.*:20:59Z \(timestamp\)

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['download_2ec',['download.c',['../download_8c.html',1,'']]]
+  ['basic_2ec',['basic.c',['../basic_8c.html',1,'']]],
+  ['browse_2ec',['browse.c',['../browse_8c.html',1,'']]]
 ];

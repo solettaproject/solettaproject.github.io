@@ -1,0 +1,17 @@
+
+latitude(constant/float:value=10.8)
+longitude(constant/float:value=20)
+altitude(constant/float:value=0.4387)
+
+float_to_location(converter/float-to-location)
+
+latitude OUT -> LATITUDE float_to_location
+longitude OUT -> LONGITUDE float_to_location
+altitude OUT -> ALTITUDE float_to_location
+
+float_to_location OUT -> IN c(console)
+
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT
+# c latitude=10.8, longitude=20 altitude=0.4387 (location)

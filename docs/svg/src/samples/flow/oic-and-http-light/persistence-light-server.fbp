@@ -1,0 +1,18 @@
+
+# Brief:
+#
+# This file wraps low-level primitive persistence nodes into a
+# high-level "persist-light-server" that can be used as a single
+# entity
+
+INPORT=power.IN:POWER
+INPORT=state.IN:STATE
+
+OUTPORT=power.OUT:POWER
+OUTPORT=state.OUT:STATE
+
+OPTION=power.default_value:default_power
+OPTION=state.default_value:default_state
+
+power(persistence/int:name="power",storage=fs)
+state(persistence/boolean:name="state",storage=fs)

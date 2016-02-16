@@ -1,0 +1,9 @@
+
+str(constant/string:value="{\"key\": \"howdy!\"}")
+str_to_json_object(converter/string-to-json-object)
+
+str OUT -> IN str_to_json_object OUT -> IN c(console)
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT
+# c {"key": "howdy!"} (JSON object)

@@ -1,0 +1,14 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This program will print to console a list of all network services
+#
+# Examples:
+#  * list all network services
+#    $ ./list_network_services.fbp
+
+list(netctl/list-services)
+list ADDED -> IN _(console:prefix="Added: ")
+list REMOVED -> IN _(console:prefix="Removed: ")
+
+

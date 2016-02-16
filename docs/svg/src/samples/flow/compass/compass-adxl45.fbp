@@ -1,0 +1,6 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# Print the accelerometer values every second
+
+_(timer) OUT -> TICK _(accelerometer/adxl345:i2c_bus=1) OUT -> IN Coordinates(console)

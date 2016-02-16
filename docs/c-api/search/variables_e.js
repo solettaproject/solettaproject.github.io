@@ -1,14 +1,12 @@
 var searchData=
 [
-  ['observable',['observable',['../structsol__oic__resource.html#a0409a4463796bea90d47b5f80e0482e7',1,'sol_oic_resource']]],
-  ['observe',['observe',['../structsol__oic__resource.html#a9d26f59f836c1bbb424957e73cc6c300',1,'sol_oic_resource']]],
-  ['offset',['offset',['../structsol__iio__channel__config.html#abfbb787e2983fce168aae83b2da9816d',1,'sol_iio_channel_config::offset()'],['../structsol__memmap__entry.html#ad99bb1ef0cd2f5f93777a792d1b6541d',1,'sol_memmap_entry::offset()']]],
-  ['on_5fdigest_5fready',['on_digest_ready',['../structsol__message__digest__config.html#ac4f93f31358330259d617f9f2d8b5e2c',1,'sol_message_digest_config']]],
-  ['on_5ffeed_5fdone',['on_feed_done',['../structsol__message__digest__config.html#ab04cedea62c50435ea7c4684c8a6cd90',1,'sol_message_digest_config']]],
-  ['open',['open',['../structsol__flow__node__type.html#adce99514bc7168a76b69749920516ec6',1,'sol_flow_node_type']]],
-  ['options',['options',['../structsol__flow__simplectype__event.html#af4383092d4a4bb9f24a2262842a89a95',1,'sol_flow_simplectype_event']]],
-  ['options_5fsize',['options_size',['../structsol__flow__node__type.html#af7b3b6b010afd542c0edb8aae7011a73',1,'sol_flow_node_type']]],
-  ['opts',['opts',['../structsol__flow__static__node__spec.html#aa0f7af66cfd7283db060c43e1166d5f9',1,'sol_flow_static_node_spec']]],
-  ['os_5fversion',['os_version',['../structsol__oic__server__information.html#a4147c2ba8591a6192515bb9ccdc73f38',1,'sol_oic_server_information']]],
-  ['out',['out',['../structsol__gpio__config.html#af2a56747517ae3827fa8297a415ffbce',1,'sol_gpio_config']]]
+  ['n_5fcmds',['n_cmds',['../platform-simple_8c.html#a7bc63c030f8e3d17b737a672f9cdfa3f',1,'platform-simple.c']]],
+  ['n_5ffds',['n_fds',['../struct__sol__glib__integration__source__data.html#a11276328e61cb2b107603c679703b1ce',1,'_sol_glib_integration_source_data']]],
+  ['n_5fpoll',['n_poll',['../struct__sol__glib__integration__source__data.html#a9f69a54055cb9bfbe66f68beefc29984',1,'_sol_glib_integration_source_data']]],
+  ['name',['name',['../structsol__log__domain.html#a336cc0218d9d9e369045ca4a61772ebc',1,'sol_log_domain::name()'],['../structsol__platform__linux__micro__module.html#ae1dfc907d9767851ef68594ecac214dd',1,'sol_platform_linux_micro_module::name()'],['../structsol__bt__device__info.html#a0c8d1e9797518a2bc62608525ccfb47a',1,'sol_bt_device_info::name()'],['../structsol__netctl__provider.html#ae4b6580afeea54f415626d6208b23579',1,'sol_netctl_provider::name()'],['../structsol__memdesc__structure__member.html#a880f60a943172b17e7a113b49bd15062',1,'sol_memdesc_structure_member::name()'],['../structsol__flow__metatype__context.html#a0d435576a9e30bc3e2c8db45a7fdbb35',1,'sol_flow_metatype_context::name()'],['../structsol__flow__metatype__port__description.html#aa4fb7a2d617a60a93f1e1ffb02f6b008',1,'sol_flow_metatype_port_description::name()'],['../structsol__flow__metatype__option__description.html#aec77aa8bc79a679da7ef79e8d81a67b7',1,'sol_flow_metatype_option_description::name()'],['../structsol__flow__metatype.html#a735d749e405c39ccf6dcfcf46e23f41b',1,'sol_flow_metatype::name()'],['../structsol__flow__packet__type.html#a1e028ba707d04f04c4890a94327c8b9f',1,'sol_flow_packet_type::name()'],['../structsol__flow__resolver.html#ae758a380c6d9007627c46ee27cf67972',1,'sol_flow_resolver::name()'],['../structsol__flow__static__node__spec.html#a1c87f19db99cb3ba903a51d793db014c',1,'sol_flow_static_node_spec::name()'],['../structsol__flow__node__named__options__member.html#add491f7747bbc2f8341eb47c1beece55',1,'sol_flow_node_named_options_member::name()']]],
+  ['need_5fupdate',['need_update',['../structsol__update__info.html#aa129b69ee93a02e1d86ab35e90dccbe7',1,'sol_update_info']]],
+  ['netmask',['netmask',['../structsol__netctl__network__params.html#a6172e653bb0620707ba1e063c22cf0be',1,'sol_netctl_network_params']]],
+  ['next',['next',['../structsol__list.html#a865aecd2ac5bceacf181e97bb139a406',1,'sol_list']]],
+  ['node',['node',['../structsol__flow__static__port__spec.html#a0fc221e533179fb711f609bd08a5000c',1,'sol_flow_static_port_spec']]],
+  ['nodes',['nodes',['../structsol__flow__static__spec.html#af965018ee99031594766c9b3274852ee',1,'sol_flow_static_spec::nodes()'],['../lowlevel_8c.html#aebd3b4ffe0765771c2bee89346eeb806',1,'nodes():&#160;lowlevel.c']]]
 ];

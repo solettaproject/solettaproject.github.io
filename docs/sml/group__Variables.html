@@ -189,8 +189,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (i = 0, len = <a class="code" href="group__Variables.html#gaedab20fd6273b5bad7551126c719deeb">sml_variables_list_get_length</a>(sml, list);         \</div>
-<div class="line">        i &lt; len &amp;&amp; ((var = <a class="code" href="group__Variables.html#gaac78b244b8d3f1ff9beff5cc4703a546">sml_variables_list_index</a>(sml, list, i)));   \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (i = 0, len = <a class="code" href="group__Variables.html#gaedab20fd6273b5bad7551126c719deeb">sml_variables_list_get_length</a>(sml, list); \</div>
+<div class="line">        i &lt; len &amp;&amp; ((var = <a class="code" href="group__Variables.html#gaac78b244b8d3f1ff9beff5cc4703a546">sml_variables_list_index</a>(sml, list, i))); \</div>
 <div class="line">        i++)</div>
 <div class="ttc" id="group__Variables_html_gaedab20fd6273b5bad7551126c719deeb"><div class="ttname"><a href="group__Variables.html#gaedab20fd6273b5bad7551126c719deeb">sml_variables_list_get_length</a></div><div class="ttdeci">uint16_t sml_variables_list_get_length(struct sml_object *sml, struct sml_variables_list *list)</div><div class="ttdoc">Get the sml_variables_list size. </div></div>
 <div class="ttc" id="group__Variables_html_gaac78b244b8d3f1ff9beff5cc4703a546"><div class="ttname"><a href="group__Variables.html#gaac78b244b8d3f1ff9beff5cc4703a546">sml_variables_list_index</a></div><div class="ttdeci">struct sml_variable * sml_variables_list_index(struct sml_object *sml, struct sml_variables_list *list, uint16_t index)</div><div class="ttdoc">Get sml_variable by index. </div></div>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sml</td><td>The <a class="el" href="structsml__object.html">sml_object</a> object. </td></tr>
-    <tr><td class="paramname">name</td><td>The variable name. If lenght is greater than <a class="el" href="group__Engine.html#gaea1a1485a4b6e53c829492de697e6f4d">SML_VARIABLE_NAME_MAX_LEN</a> variable creation will fail. </td></tr>
+    <tr><td class="paramname">name</td><td>The variable name. If length is greater than <a class="el" href="group__Engine.html#gaea1a1485a4b6e53c829492de697e6f4d">SML_VARIABLE_NAME_MAX_LEN</a> variable creation will fail. </td></tr>
   </table>
   </dd>
 </dl>
@@ -396,7 +396,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sml</td><td>The <a class="el" href="structsml__object.html">sml_object</a> object. </td></tr>
-    <tr><td class="paramname">name</td><td>The variable name. If lenght is greater than <a class="el" href="group__Engine.html#gaea1a1485a4b6e53c829492de697e6f4d">SML_VARIABLE_NAME_MAX_LEN</a> variable creation will fail. </td></tr>
+    <tr><td class="paramname">name</td><td>The variable name. If length is greater than <a class="el" href="group__Engine.html#gaea1a1485a4b6e53c829492de697e6f4d">SML_VARIABLE_NAME_MAX_LEN</a> variable creation will fail. </td></tr>
   </table>
   </dd>
 </dl>
@@ -439,7 +439,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> on succcess. </dd>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd>
 <dd>
 <code>false</code> on failure. </dd></dl>
 
@@ -579,7 +579,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> on succcess. </dd>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd>
 <dd>
 <code>false</code> on failure. </dd></dl>
 
@@ -617,7 +617,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> on succcess. </dd>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd>
 <dd>
 <code>false</code> on failure. </dd></dl>
 
@@ -763,7 +763,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> on succcess. </dd>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd>
 <dd>
 <code>false</code> on failure. </dd></dl>
 
@@ -891,7 +891,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="structsml__variable.html">sml_variable</a> on success. </dd>
 <dd>
-<code>NULL</code> on faiulre.. </dd></dl>
+<code>NULL</code> on failure.. </dd></dl>
 
 </div>
 </div>

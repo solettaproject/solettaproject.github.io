@@ -1,0 +1,26 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This program will print to console a list of all network services
+#
+# Examples:
+#  * connect or disconnect network services
+#    $ ./network-disconnect.fbp Guest
+
+name(app/argv:index=1)
+error-msg(converter/empty-to-string:output_value="Network service name is mandatory")
+Error(console)
+quit(app/quit)
+service(netctl/service)
+tick(constant/empty)
+btoe(converter/boolean-to-empty)
+etoi(converter/empty-to-int:output_value=0)
+
+name ERROR -> IN error-msg OUT -> IN Error
+service ERROR -> ERROR quit
+
+name OUT -> NAME service
+tick OUT -> DISCONNECT service OUT -> IN _(console:prefix="state: ")
+tick OUT -> TRIGGER service ONLINE -> PULSE_IF_FALSE btoe OUT -> IN etoi OUT -> CODE quit
+
+

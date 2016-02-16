@@ -1,15 +1,17 @@
 var searchData=
 [
-  ['v_5fboolean',['v_boolean',['../structsol__oic__repr__field.html#acbd5c562158662956caa57adc2e687be',1,'sol_oic_repr_field']]],
-  ['v_5fdouble',['v_double',['../structsol__oic__repr__field.html#a36daf048002d25b8c55499f334d06d0f',1,'sol_oic_repr_field']]],
-  ['v_5ffloat',['v_float',['../structsol__oic__repr__field.html#ad253960f86bd88e96ea028f3f91da87d',1,'sol_oic_repr_field']]],
-  ['v_5fint',['v_int',['../structsol__oic__repr__field.html#aab27efdb341e02acaf458a371669d0ef',1,'sol_oic_repr_field']]],
-  ['v_5fsimple',['v_simple',['../structsol__oic__repr__field.html#ad99e542c0e453b79ea26fbb00250924d',1,'sol_oic_repr_field']]],
-  ['v_5fslice',['v_slice',['../structsol__oic__repr__field.html#a4e61bd3541878c770d6132ea0d9e5cb2',1,'sol_oic_repr_field']]],
-  ['v_5fuint',['v_uint',['../structsol__oic__repr__field.html#a5dee03011ab6538fd376c58e1221a844',1,'sol_oic_repr_field']]],
-  ['v_5fvoidptr',['v_voidptr',['../structsol__oic__repr__field.html#a30dfd15ff0e16afe54b857e5d48fbcd2',1,'sol_oic_repr_field']]],
-  ['val',['val',['../structreader__data.html#a4c2aeda8af089ef9e2cb7bd890364ddc',1,'reader_data::val()'],['../structsol__drange.html#aa37a35222a4556fd5db0bf9744d162b3',1,'sol_drange::val()'],['../structsol__irange.html#a689ae9075c334bf03f451c146a94fd50',1,'sol_irange::val()'],['../structsol__str__table.html#afc51b705f3313cad585369fcebc4b764',1,'sol_str_table::val()'],['../structsol__str__table__ptr.html#afe90daae526a9490730e9774b4729100',1,'sol_str_table_ptr::val()']]],
-  ['value',['value',['../structsol__key__value.html#af6f3be5f7972da28fb191e905994f323',1,'sol_key_value::value()'],['../structsol__http__param__value.html#a79668b4786adc82eeccd41ac452bda48',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a846ee4aa90baff13e4609c62f1929425',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a50487407271eb325bdeb6cfd2bb32e38',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#a265aab571391769734c5310b08eb41ae',1,'sol_http_param_value::value()'],['../structsol__http__param__value.html#ad840116c980f7046d55c5692ff645171',1,'sol_http_param_value::value()'],['../structsol__gpio__config.html#a630eef44e0d91063bf3f673c6a59a65a',1,'sol_gpio_config::value()'],['../server_8c.html#acda54b23a3b92ae2efa63634288c0496',1,'value():&#160;server.c']]],
-  ['verbose',['verbose',['../client_8c.html#ab3f078684998b83967d507d0f453f454',1,'client.c']]],
-  ['version',['version',['../structsol__update__info.html#a9eaeffed827326d05e0d03d6c3c3da63',1,'sol_update_info::version()'],['../structsol__memmap__map.html#aff43ad9afa3e4099b5234b8d0458f12a',1,'sol_memmap_map::version()']]]
+  ['u16',['u16',['../structsol__memdesc.html#a80304f8011c8fcc766713ff41facf396',1,'sol_memdesc']]],
+  ['u32',['u32',['../structsol__memdesc.html#a98e37d9229bbb63d831d7e2e892e21f4',1,'sol_memdesc']]],
+  ['u64',['u64',['../structsol__memdesc.html#a4e5909cb8ac7653aacb62bcc99de60cc',1,'sol_memdesc']]],
+  ['u8',['u8',['../structsol__memdesc.html#a0e630a916df28d0c17a2ff97d7dfb83a',1,'sol_memdesc']]],
+  ['ul',['ul',['../structsol__memdesc.html#aa4c8cfb85b422c1467ab9974ce2458d1',1,'sol_memdesc']]],
+  ['unsubscribe',['unsubscribe',['../structsol__mqtt__handlers.html#a50911e9cd471e10a492c9ec61f7c093d',1,'sol_mqtt_handlers']]],
+  ['url',['url',['../structsol__http__response.html#ac45a43280cfd71e4dd6c40575bd13d46',1,'sol_http_response::url()'],['../structsol__netctl__proxy.html#aed86c0e70176a751f394bde0a1073124',1,'sol_netctl_proxy::url()']]],
+  ['use_5fcustom_5foffset',['use_custom_offset',['../structsol__iio__channel__config.html#a0936e9071b3002faf321ca6d14142eda',1,'sol_iio_channel_config']]],
+  ['used',['used',['../structsol__buffer.html#a50844b0cbc4ae956fd4335537756bfa9',1,'sol_buffer']]],
+  ['user',['user',['../structsol__http__param__value.html#afeb459d57f63fdb3daffbc19bd6b6beb',1,'sol_http_param_value::user()'],['../structsol__http__url.html#a751bc91a40ba96688c660e54fa162069',1,'sol_http_url::user()']]],
+  ['user_5fdata',['user_data',['../structmy__stream__api__config.html#a305b6d602ae19a82c20d2228d8c3eba9',1,'my_stream_api_config::user_data()'],['../structmy__stream__api__handle.html#a5b71a6ec147c6c8d4784f254c5441bcf',1,'my_stream_api_handle::user_data()'],['../structsol__gatt__attr.html#aa7005897a9f19920d4c9aca8db34fba5',1,'sol_gatt_attr::user_data()'],['../structsol__http__server__progressive__config.html#a6dd798797f28d6c4f27ee1b8736da631',1,'sol_http_server_progressive_config::user_data()'],['../structsol__flow__single__options.html#a2ce82006909fdf3894d3a494235b661a',1,'sol_flow_single_options::user_data()'],['../structsol__gpio__config.html#aee50df73dc45a8586a090d5edda15fbe',1,'sol_gpio_config::user_data()'],['../structsol__uart__config.html#aaa5a0fc02104d541ea3d4a4770d48eb8',1,'sol_uart_config::user_data()']]],
+  ['username',['username',['../structsol__mqtt__config.html#ad7acb3229037bac3b96e472236d66761',1,'sol_mqtt_config']]],
+  ['uuid',['uuid',['../structsol__gatt__attr.html#a19664a538d86232c6b2c251fb62bfb67',1,'sol_gatt_attr']]],
+  ['uuids',['uuids',['../structsol__bt__device__info.html#a0846abff53981c3af10ed2d6b4ee333d',1,'sol_bt_device_info']]]
 ];

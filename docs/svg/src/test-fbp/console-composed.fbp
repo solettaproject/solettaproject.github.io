@@ -1,0 +1,11 @@
+
+DECLARE=ComposedCreator:composed-new:INT_VALUE1(int)|INT_VALUE2(int)
+
+_(constant/int:value=10) OUT -> INT_VALUE1 Creator
+_(constant/int:value=2) OUT -> INT_VALUE2 Creator
+
+Creator(ComposedCreator) OUT -> IN c(console)
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT-REGEX
+# c Composed packet \{.*

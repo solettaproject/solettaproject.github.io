@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['light_5fcontext',['light_context',['../structlight__context.html',1,'']]]
+  ['entry',['entry',['../structentry.html',1,'']]]
 ];

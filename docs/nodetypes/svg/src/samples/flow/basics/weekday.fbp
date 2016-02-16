@@ -1,0 +1,30 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# This flow exemplify how to display current weekday.
+# Every time day changes on system time a new message will be displayed
+# on console.
+
+weekday(wallclock/weekday:send_initial_packet=true)
+console(console:prefix="Today is ")
+days(switcher/string:keep_state=true)
+
+sun(constant/string:value="Sunday")
+mon(constant/string:value="Monday")
+tue(constant/string:value="Tuesday")
+wed(constant/string:value="Wednesday")
+thu(constant/string:value="Thursday")
+fri(constant/string:value="Friday")
+sat(constant/string:value="Saturday")
+
+sun OUT -> IN[0] days
+mon OUT -> IN[1] days
+tue OUT -> IN[2] days
+wed OUT -> IN[3] days
+thu OUT -> IN[4] days
+fri OUT -> IN[5] days
+sat OUT -> IN[6] days
+
+weekday OUT -> IN_PORT days
+
+days OUT[0] -> IN console

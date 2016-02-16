@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['examples',['Examples',['../Examples.html',1,'']]]
+  ['design_20patterns',['Design Patterns',['../patterns.html',1,'']]]
 ];

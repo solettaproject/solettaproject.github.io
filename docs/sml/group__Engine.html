@@ -99,7 +99,7 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ga6349ef49f41d94ccfa8d362bbd958117"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117">sml_change_cb</a> )(struct <a class="el" href="structsml__object.html">sml_object</a> *sml, struct <a class="el" href="structsml__variables__list.html">sml_variables_list</a> *changed, void *data)</td></tr>
-<tr class="memdesc:ga6349ef49f41d94ccfa8d362bbd958117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called everytime the SML made a prediction.  <a href="#ga6349ef49f41d94ccfa8d362bbd958117">More...</a><br/></td></tr>
+<tr class="memdesc:ga6349ef49f41d94ccfa8d362bbd958117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every time the SML made a prediction.  <a href="#ga6349ef49f41d94ccfa8d362bbd958117">More...</a><br/></td></tr>
 <tr class="separator:ga6349ef49f41d94ccfa8d362bbd958117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40ef56f676a34fed70aa4354ee6a03ef"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef">sml_read_state_cb</a> )(struct <a class="el" href="structsml__object.html">sml_object</a> *sml, void *data)</td></tr>
 <tr class="memdesc:ga40ef56f676a34fed70aa4354ee6a03ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user defined callback to read the variables values.  <a href="#ga40ef56f676a34fed70aa4354ee6a03ef">More...</a><br/></td></tr>
@@ -147,7 +147,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga66335a825f0dffe082caa4dcb0f0ccd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a change callback.  <a href="#ga66335a825f0dffe082caa4dcb0f0ccd6">More...</a><br/></td></tr>
 <tr class="separator:ga66335a825f0dffe082caa4dcb0f0ccd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaf3b2d7d461ec2d907ae2d61df3401db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Engine.html#gaaf3b2d7d461ec2d907ae2d61df3401db">sml_set_read_state_callback</a> (struct <a class="el" href="structsml__object.html">sml_object</a> *sml, <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef">sml_read_state_cb</a> read_state_cb, void *data)</td></tr>
-<tr class="memdesc:gaaf3b2d7d461ec2d907ae2d61df3401db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a read calblack.  <a href="#gaaf3b2d7d461ec2d907ae2d61df3401db">More...</a><br/></td></tr>
+<tr class="memdesc:gaaf3b2d7d461ec2d907ae2d61df3401db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a read callblack.  <a href="#gaaf3b2d7d461ec2d907ae2d61df3401db">More...</a><br/></td></tr>
 <tr class="separator:gaaf3b2d7d461ec2d907ae2d61df3401db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7ca270ea3de40c6c98333e0c82f8a9a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Engine.html#ga7ca270ea3de40c6c98333e0c82f8a9a0">sml_set_stabilization_hits</a> (struct <a class="el" href="structsml__object.html">sml_object</a> *sml, uint16_t hits)</td></tr>
 <tr class="memdesc:ga7ca270ea3de40c6c98333e0c82f8a9a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the stabilization hits.  <a href="#ga7ca270ea3de40c6c98333e0c82f8a9a0">More...</a><br/></td></tr>
@@ -165,7 +165,7 @@ Functions</h2></td></tr>
 <li>Read the variable value, set it in SML and call process.</li>
 </ul>
 <p>As a simple example imagine that one wants to control an indoor light that turns on automatically if a person enters in the room and goes off if the person leaves. For that, this person has a presence sensor.</p>
-<p>Choosing engines and creating variables is straight-forward after the solution is modeled. Let's say fuzzy was the choosen one. Registering callbacks is simple as well:</p>
+<p>Choosing engines and creating variables is straight-forward after the solution is modeled. Let's say fuzzy was the chosen one. Registering callbacks is simple as well:</p>
  <div class="fragment"><div class="line">main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">struct </span><a class="code" href="structsml__object.html">sml_object</a> *sml;</div>
@@ -202,7 +202,7 @@ Functions</h2></td></tr>
 <p>Read and change callbacks implementation varies a lot depending on machine learning usage, since they're the interface with the rest of the world.</p>
 <p>Read callback is a function that will be called at each processing cycle to update variables values.</p>
 <p>So in this function the values of presence sensor and light must to be fetched. It could be done via GPIO, OIC, or any other way, depending in your product. It may be synchronous or asynchronous.</p>
-<p>To keep it simple, yet illustrative, we're going to simulate the values in a function read_state_cb() Variable sensor_state represents presense sensor reading, switch_state represents light state.</p>
+<p>To keep it simple, yet illustrative, we're going to simulate the values in a function read_state_cb() Variable sensor_state represents presence sensor reading, switch_state represents light state.</p>
 <p>This variable will be global since its going to be used by the callback of state changes (you could use a struct with this variable and pass them to callbacks).</p>
 <p>To simulate a daily based used, a day would be a cycle of 15 readings, user will be present on last 5 readings of each "day". When she leaves she remembers to turn lights off... most of the time. This is simulated by off_count . When she forgets lights on and leaves, machine learning should suggest to turn lights off.</p>
 <p>After states are "fetch", they're set on sml variables (input and output).</p>
@@ -292,7 +292,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Do not try to control the whole world with one SML object.</li>
 <li>If you want to control a light and an air-conditioning and they are independent of each other. Create two SML objects, one will control the light and another one the air-conditioning.</li>
-<li>Try to avoid adding unnecessary inputs/outpus to SML (or forget to add relevant inputs/outputs), this may lead the poor predictions.</li>
+<li>Try to avoid adding unnecessary inputs/outputs to SML (or forget to add relevant inputs/outputs), this may lead the poor predictions.</li>
 <li>Test both engines and check which one has the best results for your problem. </li>
 </ul>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -333,7 +333,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Called everytime the SML made a prediction. </p>
+<p>Called every time the SML made a prediction. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sml</td><td>The <a class="el" href="structsml__object.html">sml_object</a> Object. </td></tr>
@@ -367,7 +367,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd>
 <dd>
 <code>false</code> if no reads were done. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__Engine.html#gaaf3b2d7d461ec2d907ae2d61df3401db" title="Register a read calblack. ">sml_set_read_state_callback</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__Engine.html#gaaf3b2d7d461ec2d907ae2d61df3401db" title="Register a read callblack. ">sml_set_read_state_callback</a> </dd></dl>
 
 </div>
 </div>
@@ -557,7 +557,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Make a prediction based on the most recent observations. </p>
-<p>This is usefull for making predictions without the normal SML flow, without a mainloop and a registered <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called everytime the SML made a prediction. ">sml_change_cb</a>. Take a look in the following example:</p>
+<p>This is useful for making predictions without the normal SML flow, without a mainloop and a registered <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called every time the SML made a prediction. ">sml_change_cb</a>. Take a look in the following example:</p>
 <div class="fragment"><div class="line"><span class="comment">//A simple example that will turn the light on if someone is in the room.</span></div>
 <div class="line"><span class="keyword">struct </span>sml_variale PresenveVar, LightStateVar;</div>
 <div class="line"><span class="keyword">struct </span><a class="code" href="structsml__object.html">sml_object</a> struct smlobject;</div>
@@ -572,7 +572,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="keywordflow">else</span></div>
 <div class="line"> light_api_set_Off(MyLight);</div>
 <div class="line">...</div>
-</div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd><a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called everytime the SML made a prediction. ">sml_change_cb</a> and <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef" title="A user defined callback to read the variables values. ">sml_read_state_cb</a> won't be called ! </dd></dl>
+</div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd><a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called every time the SML made a prediction. ">sml_change_cb</a> and <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef" title="A user defined callback to read the variables values. ">sml_read_state_cb</a> won't be called ! </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sml</td><td>The <a class="el" href="structsml__object.html">sml_object</a> object. </td></tr>
@@ -635,7 +635,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Process variables and make predictions. </p>
-<p>This function is used to read the variables via <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef" title="A user defined callback to read the variables values. ">sml_read_state_cb</a>, process them and call <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called everytime the SML made a prediction. ">sml_change_cb</a> if necessary.</p>
+<p>This function is used to read the variables via <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef" title="A user defined callback to read the variables values. ">sml_read_state_cb</a>, process them and call <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called every time the SML made a prediction. ">sml_change_cb</a> if necessary.</p>
 <dl class="section remark"><dt>Remarks</dt><dd>It's required to set a read callback.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -646,7 +646,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>::0 on success </dd>
 <dd>
 A negative value on failure. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__Engine.html#gaaf3b2d7d461ec2d907ae2d61df3401db" title="Register a read calblack. ">sml_set_read_state_callback</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__Engine.html#gaaf3b2d7d461ec2d907ae2d61df3401db" title="Register a read callblack. ">sml_set_read_state_callback</a> </dd></dl>
 
 </div>
 </div>
@@ -843,7 +843,7 @@ A negative value on failure. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sml</td><td>The <a class="el" href="structsml__object.html">sml_object</a> object. </td></tr>
-    <tr><td class="paramname">output_state_changed_cb</td><td>A <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called everytime the SML made a prediction. ">sml_change_cb</a>. </td></tr>
+    <tr><td class="paramname">output_state_changed_cb</td><td>A <a class="el" href="group__Engine.html#ga6349ef49f41d94ccfa8d362bbd958117" title="Called every time the SML made a prediction. ">sml_change_cb</a>. </td></tr>
     <tr><td class="paramname">data</td><td>User data to <a class="el" href="group__Engine.html#ga40ef56f676a34fed70aa4354ee6a03ef" title="A user defined callback to read the variables values. ">sml_read_state_cb</a>. </td></tr>
   </table>
   </dd>
@@ -884,7 +884,7 @@ A negative value on failure. </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Register a read calblack. </p>
+<p>Register a read callblack. </p>
 <p>It should be used to set a callback function to read variables values. This callback must return true if it was able to read all variables or false on error. If an error happens <a class="el" href="group__Engine.html#ga248e5631778d5fd464f1acff1b05aec9" title="Process variables and make predictions. ">sml_process</a> will be aborted, returning an error value. Otherwise, <a class="el" href="group__Engine.html#ga248e5631778d5fd464f1acff1b05aec9" title="Process variables and make predictions. ">sml_process</a> will proceed with updated variables values.</p>
 <dl class="section remark"><dt>Remarks</dt><dd>If read_state_cb is null previous callback will be unset. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>

@@ -1,0 +1,9 @@
+
+str(constant/string:value="[\"howdy!\",false]")
+str_to_json_array(converter/string-to-json-array)
+
+str OUT -> IN str_to_json_array OUT -> IN c(console)
+_(constant/int:value=1) OUT -> INTERVAL _(timer) OUT -> QUIT _(app/quit)
+
+## TEST-OUTPUT
+# c ["howdy!",false] (JSON array)

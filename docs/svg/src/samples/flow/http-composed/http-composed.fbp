@@ -1,0 +1,28 @@
+#
+
+DECLARE=ComposedServer:http-composed-server:STRING_VALUE(string)|INT_VALUE(int)|FLOAT_VALUE(float)
+DECLARE=ComposedClient:http-composed-client:STRING_VALUE(string)|INT_VALUE(int)|FLOAT_VALUE(float)
+DECLARE=ComposedSplitter:composed-split:STRING_VALUE(string)|INT_VALUE(int)|FLOAT_VALUE(float)
+
+client(ComposedClient:url="http://localhost:8000/composed/")
+server(ComposedServer:path="/composed/", port=8000)
+console(console)
+
+_(constant/string:value="Hello") OUT -> STRING_VALUE server
+_(constant/int:value=42) OUT -> INT_VALUE server
+_(constant/float:value=0.1) OUT -> FLOAT_VALUE server
+
+_(constant/empty) OUT -> GET client
+
+client OUT -> IN Splitter(ComposedSplitter)
+Splitter FLOAT_VALUE -> IN console
+Splitter INT_VALUE -> IN console
+Splitter STRING_VALUE -> IN console
+
+_(constant/string:value="Hello Back") OUT -> STRING_VALUE client
+_(constant/int:value=1764) OUT -> INT_VALUE client
+_(constant/float:value=0.2) OUT -> FLOAT_VALUE client
+
+_(constant/empty) OUT -> POST client
+
+server OUT -> IN Splitter

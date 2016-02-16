@@ -1,5 +1,11 @@
 var searchData=
 [
+  ['_5fcan_5fread',['_can_read',['../stream__sample_8c.html#ab36534599cf0df085cd00606e29173f8',1,'stream_sample.c']]],
+  ['_5fcan_5fwrite',['_can_write',['../stream__sample_8c.html#a59c664cac2d659cbe290e218c870318f',1,'stream_sample.c']]],
+  ['_5fcompile_5fregex',['_compile_regex',['../network-status_8c.html#ae81eff239ff66bc68263aa2801173f56',1,'network-status.c']]],
+  ['_5finform_5fuser',['_inform_user',['../stream__sample_8c.html#a2f9f4d9b9c23b6a058b614a3f8a18dd9',1,'stream_sample.c']]],
+  ['_5fmatch_5flink',['_match_link',['../network-status_8c.html#ac6b0316776d1442929ee58ef630020cf',1,'network-status.c']]],
+  ['_5fon_5fnetwork_5fevent',['_on_network_event',['../network-status_8c.html#ad5b522136325bbfb049ada0084e68d19',1,'network-status.c']]],
   ['_5fsol_5fglib_5fintegration_5falign_5fpower2',['_sol_glib_integration_align_power2',['../sol-glib-integration_8h.html#a70bfacad87bc9a806e7a653295a3a63b',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5ffd_5fflags_5fto_5fgpoll_5fevents',['_sol_glib_integration_fd_flags_to_gpoll_events',['../sol-glib-integration_8h.html#a68f4e9a9986a108f62c3821cba5c825f',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5ffd_5fhandler_5fdel',['_sol_glib_integration_fd_handler_del',['../sol-glib-integration_8h.html#aac8811fc08d1cff75d6ee6a3afc7c3c1',1,'sol-glib-integration.h']]],

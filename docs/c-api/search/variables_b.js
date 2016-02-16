@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['lat',['lat',['../structsol__location.html#a00fff3314f90e0667cb4c8293a97b0ab',1,'sol_location']]],
-  ['led_5fstate',['led_state',['../oic-server_8c.html#a172311489890fda0fd6c0562523f63c0',1,'oic-server.c']]],
-  ['len',['len',['../structsol__str__slice.html#a9b9f38d8d946af896daf76fab04473b7',1,'sol_str_slice::len()'],['../structsol__str__table.html#ab727ecffc9bff95e6454383739528661',1,'sol_str_table::len()'],['../structsol__str__table__ptr.html#a958ba081c05a4333fad17a1d83f4eaba',1,'sol_str_table_ptr::len()'],['../structsol__vector.html#ac27a1163cfe3c9ba8d4229a04ebbada5',1,'sol_vector::len()']]],
-  ['level',['level',['../structsol__log__domain.html#aa16078d372ad1360d56571eb20415921',1,'sol_log_domain']]],
-  ['light',['light',['../simple-server_8c.html#a1f643d8a1dc4356bc60b3f554df4bf40',1,'simple-server.c']]],
-  ['log_5flevel',['log_level',['../md5sum_8c.html#ad2da3ac425bc17356fa089cd52c099bc',1,'md5sum.c']]],
-  ['lon',['lon',['../structsol__location.html#ae47329ebc9bab92ed34572d3a8045612',1,'sol_location']]]
+  ['keep_5falive',['keep_alive',['../structsol__mqtt__config.html#a68532941911ba295bbf8302a075f8f63',1,'sol_mqtt_config']]],
+  ['key',['key',['../structacl__instance.html#a68dbfdf8f177476d036ce6fee87a1fba',1,'acl_instance::key()'],['../structsol__key__value.html#aeb12efef930611bfa469c72d26b89469',1,'sol_key_value::key()'],['../structsol__http__server__config.html#ab06f5a4de1ba80c048b9c3f7ed7e4733',1,'sol_http_server_config::key()'],['../structsol__http__param__value.html#ab4a1db0feba038e9727778cb3bbddfd4',1,'sol_http_param_value::key()'],['../structsol__lwm2m__security__psk.html#ab762e0903d4486e7cfd73412e1af6148',1,'sol_lwm2m_security_psk::key()'],['../structsol__oic__repr__field.html#ae7635ebb3d78fc3bb99e84c5eb33d8e7',1,'sol_oic_repr_field::key()'],['../structsol__message__digest__config.html#ad8bb6b1ff7e422523a5d0e6889cd1a49',1,'sol_message_digest_config::key()'],['../structsol__memdesc__serialize__options.html#a1f702f29b3d7b41f4526a2d20b412ba3',1,'sol_memdesc_serialize_options::key()'],['../structsol__str__table.html#a955094e5ad23b4445da1b6fb4c58d412',1,'sol_str_table::key()'],['../structsol__str__table__ptr.html#a2f55308cfea5e1f0d4cc85c730a93616',1,'sol_str_table_ptr::key()'],['../structsol__str__table__int64.html#ae85d80e1391010de13d5a6b5929af692',1,'sol_str_table_int64::key()'],['../server-https_8c.html#ab33f20cf0cb32c6c72a285f53aead32b',1,'key():&#160;server-https.c']]],
+  ['key_5fvalue',['key_value',['../structsol__http__param__value.html#aa6859577a6fbfa821b12a6993f326762',1,'sol_http_param_value']]],
+  ['known_5fclients',['known_clients',['../lwm2m-bs-server_8c.html#a4f866fa0389efe4c44b93653d7d1a9d9',1,'lwm2m-bs-server.c']]]
 ];

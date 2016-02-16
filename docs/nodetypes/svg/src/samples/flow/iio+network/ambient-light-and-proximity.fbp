@@ -1,0 +1,21 @@
+#!/usr/bin/env sol-fbp-runner
+
+
+# IIO ambient light luminance and proximity reading
+
+light(MyLight)
+proximity(MyProximity)
+
+# timer trigger sensor reading every seconds
+timer(timer:interval=1000)
+
+timer OUT -> TICK light OUT -> IN lux(converter/float-to-string:format_prefix="Lux: ")
+timer OUT -> TICK proximity OUT -> IN distance(converter/float-to-string:format_prefix="Proximity: ")
+
+lux OUT -> IN[0] concat(string/concatenate:separator=" ")
+distance OUT -> IN[1] concat
+
+OPTION=timer.interval:interval
+OUTPORT=light.OUT:LUX
+OUTPORT=proximity.OUT:PROXIMITY
+OUTPORT=concat.OUT:SENSOR_STRING

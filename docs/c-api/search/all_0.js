@@ -1,6 +1,13 @@
 var searchData=
 [
-  ['_5f_5fpad0_5f_5f',['__pad0__',['../structsol__worker__thread__spec.html#af7e825992aab673ad81372af4cf2bb9b',1,'sol_worker_thread_spec::__pad0__()'],['../structsol__network__link.html#a54669e520b10c3b1fb609c269a355867',1,'sol_network_link::__pad0__()'],['../structsol__oic__client.html#a7c20e63c8d42935292503e5638112bb8',1,'sol_oic_client::__pad0__()'],['../structsol__oic__resource.html#ad10523b693fcc16fe94a41162aff4a39',1,'sol_oic_resource::__pad0__()'],['../structsol__oic__server__information.html#adf2c838619acd86dedc96a3a3a61f297',1,'sol_oic_server_information::__pad0__()'],['../structsol__oic__resource__type.html#ae3c05bc2884cb9a4f637e603a0f58d15',1,'sol_oic_resource_type::__pad0__()']]],
+  ['_5fcan_5fread',['_can_read',['../stream__sample_8c.html#ab36534599cf0df085cd00606e29173f8',1,'stream_sample.c']]],
+  ['_5fcan_5fwrite',['_can_write',['../stream__sample_8c.html#a59c664cac2d659cbe290e218c870318f',1,'stream_sample.c']]],
+  ['_5fcompile_5fregex',['_compile_regex',['../network-status_8c.html#ae81eff239ff66bc68263aa2801173f56',1,'network-status.c']]],
+  ['_5fgnu_5fsource',['_GNU_SOURCE',['../linux-micro-init_8c.html#a369266c24eacffb87046522897a570d5',1,'linux-micro-init.c']]],
+  ['_5finform_5fuser',['_inform_user',['../stream__sample_8c.html#a2f9f4d9b9c23b6a058b614a3f8a18dd9',1,'stream_sample.c']]],
+  ['_5fmatch_5flink',['_match_link',['../network-status_8c.html#ac6b0316776d1442929ee58ef630020cf',1,'network-status.c']]],
+  ['_5fon_5fnetwork_5fevent',['_on_network_event',['../network-status_8c.html#ad5b522136325bbfb049ada0084e68d19',1,'network-status.c']]],
+  ['_5fpriv',['_priv',['../structsol__gatt__attr.html#aa2d54bf4c51209b7660bb409217cbd31',1,'sol_gatt_attr']]],
   ['_5fsol_5fglib_5fintegration_5falign_5fpower2',['_sol_glib_integration_align_power2',['../sol-glib-integration_8h.html#a70bfacad87bc9a806e7a653295a3a63b',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5ffd_5fflags_5fto_5fgpoll_5fevents',['_sol_glib_integration_fd_flags_to_gpoll_events',['../sol-glib-integration_8h.html#a68f4e9a9986a108f62c3821cba5c825f',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5ffd_5fhandler',['_sol_glib_integration_fd_handler',['../struct__sol__glib__integration__fd__handler.html',1,'']]],
@@ -24,6 +31,10 @@ var searchData=
   ['_5fsol_5fglib_5fintegration_5fsource_5fprepare',['_sol_glib_integration_source_prepare',['../sol-glib-integration_8h.html#a47d65d9a67a44844b350f7e916f3f060',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5fsource_5frelease',['_sol_glib_integration_source_release',['../sol-glib-integration_8h.html#abd4a4a5b25ca31098e314548b4e185ab',1,'sol-glib-integration.h']]],
   ['_5fsol_5fglib_5fintegration_5fsource_5ftype',['_sol_glib_integration_source_type',['../sol-glib-integration_8h.html#a2a023005e3b87cecaca12084bcbd2cb9',1,'sol-glib-integration.h']]],
-  ['_5fsol_5fint_5fcheck_5ffmt',['_SOL_INT_CHECK_FMT',['../group__Log.html#ga343b73bc7d7e15c7b7cadd2465fa3a3f',1,'sol-log.h']]],
+  ['_5fsol_5fint_5fcheck_5ffmt',['_SOL_INT_CHECK_FMT',['../sol-log_8h.html#ac088549c286dab1eda1040cf1ea521fb',1,'sol-log.h']]],
+  ['_5fsol_5fmemdesc_5fcheck',['_SOL_MEMDESC_CHECK',['../group__MemDesc.html#gaaade55a327e92316544062bd1ec58404',1,'sol-memdesc.h']]],
+  ['_5fsol_5fmemdesc_5fcheck_5fapi_5fversion',['_SOL_MEMDESC_CHECK_API_VERSION',['../group__MemDesc.html#ga8ac0dea7fb4518661b7ed675725262b6',1,'sol-memdesc.h']]],
+  ['_5fsol_5fmemdesc_5fcheck_5fstructure',['_SOL_MEMDESC_CHECK_STRUCTURE',['../group__MemDesc.html#ga23a9bd736adbad2e078c526fbe8287e9',1,'sol-memdesc.h']]],
+  ['_5fsol_5fmemdesc_5fcheck_5fstructure_5fmember',['_SOL_MEMDESC_CHECK_STRUCTURE_MEMBER',['../group__MemDesc.html#ga6bd4878e2100438124e598a6dd5ede3e',1,'sol-memdesc.h']]],
   ['_5fsol_5ftype_5fcheck',['_SOL_TYPE_CHECK',['../group__Type__Checking.html#ga54e2be4f06cb53ba7357475754d5c809',1,'sol-types.h']]]
 ];

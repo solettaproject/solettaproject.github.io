@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mytype_5fcontext',['mytype_context',['../structmytype__context.html',1,'']]],
-  ['mytype_5foptions',['mytype_options',['../structmytype__options.html',1,'']]]
+  ['feed_5fctx',['feed_ctx',['../structfeed__ctx.html',1,'']]],
+  ['filter_5fmedian',['filter_median',['../structfilter__median.html',1,'']]]
 ];

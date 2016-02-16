@@ -1,0 +1,18 @@
+
+latitude(constant/float:value=0.666)
+longitude(constant/float:value=42)
+altitude(constant/float:value=-54.3)
+location(constant/location:latitude=0.666,longitude=42,altitude=-54.3)
+
+location_to_float(converter/location-to-float)
+
+location OUT -> IN location_to_float
+
+location_to_float LATITUDE -> IN[0] eq_latitude(float/equal)
+latitude OUT -> IN[1] eq_latitude OUT -> RESULT latitude_test(test/result)
+
+location_to_float LONGITUDE -> IN[0] eq_longitude(float/equal)
+longitude OUT -> IN[1] eq_longitude OUT -> RESULT longitude_test(test/result)
+
+location_to_float ALTITUDE -> IN[0] eq_altitude(float/equal)
+altitude OUT -> IN[1] eq_altitude OUT -> RESULT altitude_test(test/result)
